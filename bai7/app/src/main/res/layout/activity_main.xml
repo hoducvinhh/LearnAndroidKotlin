@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#980BA0"
+        android:textStyle="bold"
+        android:text="So thich cua thim: " />
+
+    <CheckBox
+        android:id="@+id/chkNghenhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F20"
+        android:text="Nghe nhac" />
+
+    <CheckBox
+        android:id="@+id/chkXemPhim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F20"
+        android:text="Xem phim" />
+
+    <CheckBox
+        android:id="@+id/chkChoiTheThao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F20"
+        android:text="Choi the thao" />
+
+    <CheckBox
+        android:id="@+id/chkShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F20"
+        android:text="Shopping" />
+
+    <CheckBox
+        android:id="@+id/chkDuLich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F20"
+        android:text="Du Lich" />
+
+    <Button
+        android:id="@+id/btnChonSoThich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chon so thich" />
+
+    <TextView
+        android:id="@+id/edy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="So thich ban chon la: " />
+
+    <EditText
+        android:id="@+id/edtSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="So thich sua ban se hien o day"
+        android:inputType="text|textMultiLine" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="So thich: " />
+
+        <RadioButton
+            android:id="@+id/radNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/radNu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nu" />
+
+        <Button
+            android:id="@+id/btnXacNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Xac nhan" />
+    </RadioGroup>
+</LinearLayout>

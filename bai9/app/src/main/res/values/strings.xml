@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">bai9</string>
+    <string-array name="arrQuocGia">
+       <item>Lao</item>
+       <item>Campuchia</item>
+       <item>ThaiLan</item>
+       <item>BaLan</item>
+       <item>HaLan</item>
+       <item>PhanLan</item>
+        <item>Lao</item>
+        <item>Campuchia</item>
+        <item>ThaiLan</item>
+        <item>BaLan</item>
+        <item>HaLan</item>
+        <item>PhanLan</item>
+        <item>Lao</item>
+        <item>Campuchia</item>
+        <item>ThaiLan</item>
+        <item>BaLan</item>
+        <item>HaLan</item>
+        <item>PhanLan</item>
+    </string-array>
+</resources>

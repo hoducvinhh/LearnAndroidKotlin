@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">bai14</string>
+    <string-array name="tinhthanh">
+        <item>an giang</item>
+        <item>ba ria vung tau</item>
+        <item>bac lieu</item>
+        <item>bac kan</item>
+        <item>bac giang</item>
+        <item>bac ninh</item>
+        <item>ben tre</item>
+        <item>binh duong</item>
+        <item>binh dinh</item>
+        <item>binh phuoc</item>
+        <item>binh thuan</item>
+        <item>ca mau</item>
+        <item>cao bang</item>
+
+    </string-array>
+</resources>

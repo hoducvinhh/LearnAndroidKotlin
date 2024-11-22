@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bai12</string>
+    <string-array name="ngonngu">
+        <item>English</item>
+        <item>Viet Nam</item>
+        <item>Ha Lan</item>
+    </string-array>
+
+</resources>
