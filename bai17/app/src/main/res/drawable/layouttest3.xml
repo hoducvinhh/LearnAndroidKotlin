@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+<!--    solid : mau nen khoi shape-->
+    <solid android:color="#88ffff"/>
+    <stroke android:color="#0000ff"
+        android:width="5dp"
+
+       />
+<!--    <size android:width="50dp"-->
+<!--        android:height="120dp"/>-->
+
+<!--    //bo goc-->
+    <corners  android:radius="270dp"/>
+<!--        android:topLeftRadius="100dp"-->
+<!--        android:bottomRightRadius="100dp"-->
+
+
+<!--    //padding can le noi dung-->
+    <padding android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"
+        android:left="10dp"/>
+
+
+<!--    //dai mau chuyen sac-->
+    <gradient android:startColor="@color/black"
+        android:centerColor="@color/white"
+        android:endColor="#0000ff"
+        android:angle="45"/>
+
+
+
+</shape>
