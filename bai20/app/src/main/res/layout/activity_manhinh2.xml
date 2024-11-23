@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5AB1EB"
+    android:orientation="vertical"
+    tools:context=".manhinh2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#20f"
+        android:layout_gravity="center"
+        android:text="day la man hinh2 " />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Bam de quay lai" />
+
+    <EditText
+        android:id="@+id/edtGetIntent"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:layout_marginTop="15dp"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>
